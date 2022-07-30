@@ -24,6 +24,7 @@ sh "mvn clean package"
 }
 }
 
+/*
 stage ("Generate SonarQube Report"){
 steps {
 sh "mvn sonar:sonar"
@@ -44,7 +45,7 @@ sshagent(['ec056878-0d0f-4ccd-9e1a-a87442836243']) {
 }
 }
 
-
+*/
 }
 
 post{
